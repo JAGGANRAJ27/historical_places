@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 20px 25px;
+    border: none;
+    background-color: #333333;
+    color: #efefed;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.brandtitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.herocon {
+    min-height: 80vh;
+    background:#afafaf url('https://images.pexels.com/photos/10329512/pexels-photo-10329512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    
+}
+
+.desc {
+    margin: 20px 0px;
+    min-height: 40vh;
+    border: 1px solid #333333;
+    border-radius: 14px;
+    background: #efefed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-img {
+    border-radius: 20px;
+}
