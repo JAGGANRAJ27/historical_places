@@ -47,7 +47,7 @@ h6 {
 
 .herocon {
     min-height: 80vh;
-    background: #afafaf url('https://images.pexels.com/photos/10329512/pexels-photo-10329512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background: #afafaf url(/images/image008.jpeg);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
@@ -56,6 +56,35 @@ h6 {
 
 }
 
+#temple-hero {
+    min-height: 80vh;
+    background: #5f5f5f url(/images/image003.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+
+#art-dance-hero {
+    min-height: 80vh;
+    background: #5f5f5f url(/images/dance.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+#festivals-hero
+{
+    min-height: 80vh;
+    background: #5f5f5f url(/images/image021.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
 .desc {
     margin: 20px 0px;
     min-height: 40vh;
@@ -88,6 +117,7 @@ h6 {
     vertical-align: middle;
     width: 100%;
 }
+
 
 @media screen and (max-width: 800px) {
     #columnmain {
