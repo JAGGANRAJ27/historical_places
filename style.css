@@ -47,7 +47,7 @@ h6 {
 
 .herocon {
     min-height: 80vh;
-    background: #afafaf url(/images/image008.jpeg);
+    background: #afafaf url('/images/image008.jpeg');
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
@@ -58,7 +58,7 @@ h6 {
 
 #temple-hero {
     min-height: 80vh;
-    background: #5f5f5f url(/images/image003.jpg);
+    background: #5f5f5f url('/images/image003.jpg');
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
@@ -68,7 +68,7 @@ h6 {
 
 #art-dance-hero {
     min-height: 80vh;
-    background: #5f5f5f url(/images/dance.jpg);
+    background: #5f5f5f url('/images/dance.jpg');
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
@@ -78,7 +78,7 @@ h6 {
 #festivals-hero
 {
     min-height: 80vh;
-    background: #5f5f5f url(/images/image021.jpg);
+    background: #5f5f5f url('/images/image021.jpg');
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
