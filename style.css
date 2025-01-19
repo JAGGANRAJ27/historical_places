@@ -90,14 +90,14 @@ h6 {
 }
 
 @media screen and (max-width: 800px) {
-    #column {
+    #columnmain {
         flex: 50%;
         max-width: 50%;
     }
 }
 
 @media screen and (max-width: 600px) {
-    #column {
+    #columnmian {
         flex: 100%;
         max-width: 100%;
     }
