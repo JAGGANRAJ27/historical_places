@@ -47,13 +47,13 @@ h6 {
 
 .herocon {
     min-height: 80vh;
-    background:#afafaf url('https://images.pexels.com/photos/10329512/pexels-photo-10329512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background: #afafaf url('https://images.pexels.com/photos/10329512/pexels-photo-10329512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 14px;
-    
+
 }
 
 .desc {
@@ -75,33 +75,30 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-  }
-  
-  /* Create four equal columns that sits next to each other */
-  #columnmain {
+}
+
+#columnmain {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-  }
-  
-  #columnmain img {
+}
+
+#columnmain img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 800px) {
     #column {
-      flex: 50%;
-      max-width: 50%;
+        flex: 50%;
+        max-width: 50%;
     }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     #column {
-      flex: 100%;
-      max-width: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
-  }
+}
