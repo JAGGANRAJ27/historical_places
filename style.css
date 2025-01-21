@@ -75,8 +75,8 @@ h6 {
     background-repeat: no-repeat;
     border-radius: 14px;
 }
-#festivals-hero
-{
+
+#festivals-hero {
     min-height: 80vh;
     background: #5f5f5f url('https://images.pexels.com/photos/3135229/pexels-photo-3135229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-blend-mode: multiply;
@@ -85,6 +85,7 @@ h6 {
     background-repeat: no-repeat;
     border-radius: 14px;
 }
+
 .desc {
     margin: 20px 0px;
     min-height: 40vh;
